@@ -17,3 +17,4 @@
   <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/Dustbin_img_upload.jpg" width="250" /> 
   <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/Waste_classify.jpg" width="250" />
   </p>
+  The Fig 1. (Left) Shows the home page, Fig 2. (Middle) Shows the upload section, Fig 3. (Right) Shows the Waste classification ML implementation
