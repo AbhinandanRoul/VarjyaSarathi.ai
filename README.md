@@ -9,7 +9,10 @@
 
 ## Getting Started
 - Please install the android app, by the given link :
+- Alternative access to Industrial Bidding Portal- https://abhinandanroul-varjyasarathi-ai-main-xasecw.streamlit.app/
 
+## Flow Diagrams
+<img src="https://imgur.com/a/x3G9aFI" width="250">
 
 ## Screenshots
   <p float="left">
