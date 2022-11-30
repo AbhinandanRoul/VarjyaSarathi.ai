@@ -9,10 +9,15 @@
 
 ## Getting Started
 - Please install the android app, by the given link :
+Note, for the Android app to get installed in your phone, please enable Permissions --  " __Allow playstore to install apps from unknown sources__ ". It is required as the app is not hosted in Google Playstore.
 - Alternative access to Industrial Bidding Portal- https://abhinandanroul-varjyasarathi-ai-main-xasecw.streamlit.app/
 
 ## Flow Diagrams
-<img src="https://imgur.com/a/x3G9aFI" width="250">
+<img src="https://i.imgur.com/NLGhnXu.png" width="400">
+Fig. Waste Analysis Module <br>
+
+<img src = "https://i.imgur.com/6W9b8cz.png" width=400>
+Fig. App Control Flow
 
 ## Screenshots
   <p float="left">
