@@ -31,8 +31,4 @@ user1,Paper,95,89
 user1,Bio-Medical Waste,4,38
 user1,Food Packaging,8.0,23.0
 user1,Plastic,12.0,55.0
-user1,Food Packaging,11.0,11.0
-user1,Metals,23.0,45.0
-user1,Metals,78.0,55.0
-user1,Metals,78.0,55.0
-user4,E-waste,33.0,12.0
+user4,Plastic,500.0,20.0
