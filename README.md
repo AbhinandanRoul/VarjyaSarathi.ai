@@ -22,9 +22,17 @@
   
   
   <p float="left">
-  <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/VSP.jpg" width="250" />
+  <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/VSP.jpg" width="264" />
   <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/Social.jpg" width="250" /> 
   <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/emp_dash2.jpg" width="250" />
   </p>
    The Fig 4. (Left) VSP (Reward coins), Fig 5. (Middle) Shows the social standings of users, Fig 6. (Right) Shows the servicemen dashboard
+   
+   ## Industrial Portal- In App Feature and External Access provided
+   <p float="left">
+  <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/bid_monitor.jpg" width="250" />
+  <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/bid_result.jpg" width="252" /> 
+  <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/bidding_portal.jpg" width="264" />
+  </p>
   
+  The Fig 7. (Left) Bidding Monitor Dashboard (Reward coins), Fig 8. (Middle) Shows the bidding result(User-specific) Fig 9. (Right) Shows portal to make a bid
