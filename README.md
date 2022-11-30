@@ -11,3 +11,9 @@
 - Please install the android app, by the given link :
 
 
+## Screenshots
+  <p float="left">
+  <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/Home.jpg" width="233" />
+  <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/Dustbin_img_upload.jpg" width="250" /> 
+  <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/Waste_classify.jpg" width="250" />
+  </p>
