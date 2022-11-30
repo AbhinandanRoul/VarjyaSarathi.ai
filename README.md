@@ -18,3 +18,13 @@
   <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/Waste_classify.jpg" width="250" />
   </p>
   The Fig 1. (Left) Shows the home page, Fig 2. (Middle) Shows the upload section, Fig 3. (Right) Shows the Waste classification ML implementation
+  
+  
+  
+  <p float="left">
+  <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/VSP.jpg" width="250" />
+  <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/Social.jpg" width="250" /> 
+  <img src="https://github.com/AbhinandanRoul/VarjyaSarathi.ai/blob/main/Screenshots/emp_dash2.jpg" width="250" />
+  </p>
+   The Fig 4. (Left) VSP (Reward coins), Fig 5. (Middle) Shows the social standings of users, Fig 6. (Right) Shows the servicemen dashboard
+  
