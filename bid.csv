@@ -1,0 +1,38 @@
+Userid,Commodity,Bidding Price,Quantity
+user2,Paper,357,75
+user3,Plastic,437,94
+user1,Bio-Medical Waste,354,72
+user1,Paper,288,31
+user4,Plastic,272,93
+user1,Paper,29,93
+user2,E-waste,318,99
+user4,Metals,26,35
+user4,Paper,183,86
+user1,Plastic,104,29
+user2,Paper,69,51
+user3,Plastic,402,39
+user1,Bio-Medical Waste,456,78
+user1,Paper,12,57
+user4,Plastic,489,100
+user1,Paper,35,43
+user2,E-waste,446,38
+user4,Metals,493,56
+user4,Paper,127,17
+user1,Plastic,266,74
+user1,Paper,422,60
+user2,Plastic,248,49
+user4,Bio-Medical Waste,335,56
+user4,Paper,327,30
+user1,Plastic,278,62
+user2,Paper,25,38
+user3,E-waste,246,19
+user1,Metals,379,58
+user1,Paper,95,89
+user1,Bio-Medical Waste,4,38
+user1,Food Packaging,8.0,23.0
+user1,Plastic,12.0,55.0
+user1,Food Packaging,11.0,11.0
+user1,Metals,23.0,45.0
+user1,Metals,78.0,55.0
+user1,Metals,78.0,55.0
+user4,E-waste,33.0,12.0
