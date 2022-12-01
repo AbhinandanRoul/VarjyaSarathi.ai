@@ -27,6 +27,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
 import com.google.zxing.integration.android.IntentIntegrator;
 
 /**
@@ -133,8 +135,26 @@ public class HomeFragment extends Fragment {
         clMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                FirebaseFirestore db = FirebaseFirestore.getInstance();
+                db.collection("Dustbins")
+                        .get()
+                        .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    for (QueryDocumentSnapshot document : task.getResult()) {
+                                        Dustbins dustbins = document.toObject(Dustbins.class);
+                                        Log.d("TAG", document.getId() + " => " + document.getData());
+                                    }
+                                } else {
+                                    Log.d("TAG", "Error getting documents: ", task.getException());
+                                }
+                            }
+                        });
+
 // Create a Uri from an intent string. Use the result to create an Intent.
-                Uri gmmIntentUri = Uri.parse("geo:20.3409858,85.8884363?q=20.3409858,85.8884363 (Dustbin)");
+                Uri gmmIntentUri = Uri.parse("geo:20.2777389,85.7776127?q=20.2777289,85.7776127 (Dustbin)");
 
 // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
@@ -168,7 +188,8 @@ public class HomeFragment extends Fragment {
         clScan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(),ScanGarbage.class);
+                Intent intent = new Intent(getActivity(), ScanGarbage.class);
+                intent.putExtra("s", "m");
                 startActivity(intent);
             }
         });
@@ -190,5 +211,11 @@ public class HomeFragment extends Fragment {
                 startActivity(intent);
             }
         });
+    }
+
+    double coordinateDistance( double lat1, double lng1, double lat2, double lng2) {
+        double p = 0.017453292519943295;
+        double a = 0.5 - Math.cos((lat2 - lat1) * p)/2 * Math.cos(lat1*p) * Math.cos(lat2 * p) * (1 - Math.cos((lng2-lng1)*p))/2;
+        return 12742 * Math.asin(Math.sqrt(a));
     }
 }

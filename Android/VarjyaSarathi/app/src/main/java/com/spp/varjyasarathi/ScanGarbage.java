@@ -1,25 +1,42 @@
 package com.spp.varjyasarathi;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.ImageFormat;
+import android.graphics.PixelFormat;
+import android.graphics.Rect;
+import android.graphics.RectF;
+import android.graphics.YuvImage;
+import android.hardware.Camera;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.spp.varjyasarathi.ml.CardboardGlassMetalPaperPlastic89;
+import com.spp.varjyasarathi.ml.Model1;
 import com.spp.varjyasarathi.ml.Wastermodel;
 
 import org.tensorflow.lite.support.image.TensorImage;
 import org.tensorflow.lite.support.label.Category;
 
+import java.io.File;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class ScanGarbage extends AppCompatActivity {
@@ -28,10 +45,15 @@ public class ScanGarbage extends AppCompatActivity {
     List<Category> probability;
     String type;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scan_garbage);
+
+
         dispatchTakePictureIntent();
         probability = null;
         type= "";
@@ -74,6 +96,7 @@ public class ScanGarbage extends AppCompatActivity {
         }
     }
 
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -84,32 +107,62 @@ public class ScanGarbage extends AppCompatActivity {
             TextView tvType = findViewById(R.id.tv_waste_type);
             imageView.setImageBitmap(imageBitmap);
 
-            try {
-                Wastermodel model = Wastermodel.newInstance(getApplicationContext());
+            if(getIntent().getExtras().getString("s").equals("m")){
+                try {
+                    CardboardGlassMetalPaperPlastic89 model = CardboardGlassMetalPaperPlastic89.newInstance(getApplicationContext());
 
-                // Creates inputs for reference.
-                TensorImage image = TensorImage.fromBitmap(imageBitmap);
+                    // Creates inputs for reference.
+                    TensorImage image = TensorImage.fromBitmap(imageBitmap);
 
-                // Runs model inference and gets result.
-                Wastermodel.Outputs outputs = model.process(image);
-                probability = outputs.getProbabilityAsCategoryList();
-                double cScore = 0;
-                if(probability.get(0).getScore() >probability.get(1).getScore()){
-                    type = "Organic";
-                    cScore = probability.get(0).getScore() * 100 ;
+                    // Runs model inference and gets result.
+                    CardboardGlassMetalPaperPlastic89.Outputs outputs = model.process(image);
+                    List<Category> probability = outputs.getProbabilityAsCategoryList();
+                    Collections.sort(probability, new Comparator<Category>() {
+                        public int compare(Category o1, Category o2) {
+                            // compare two instance of `Score` and return `int` as result.
+                            return o1.getScore() < o2.getScore()? -1
+                                    : o1.getScore() > o2.getScore() ? 1
+                                    : 0;
+                        }
+                    });
+
+                    Collections.reverse(probability);
+
+                    tvType.setText(probability.get(0).getLabel() + "\nCScore : " + probability.get(0).getScore());
+
+                    // Releases model resources if no longer used.
+                    model.close();
+                } catch (IOException e) {
+                    // TODO Handle the exception
                 }
-                else{
-                    type = "Recyclable";
-                    cScore = probability.get(1).getScore() * 100 ;
-                }
-                tvType.setText(type + "\nCScore : " + cScore);
-                Log.d("TAGP", probability.toString());
-                // Releases model resources if no longer used.
-                model.close();
-            } catch (IOException e) {
-                // TODO Handle the exception
             }
+            else {
+                try {
+                    Wastermodel model = Wastermodel.newInstance(getApplicationContext());
 
+                    // Creates inputs for reference.
+                    TensorImage image = TensorImage.fromBitmap(imageBitmap);
+
+                    // Runs model inference and gets result.
+                    Wastermodel.Outputs outputs = model.process(image);
+                    probability = outputs.getProbabilityAsCategoryList();
+                    double cScore = 0;
+                    if(probability.get(0).getScore() >probability.get(1).getScore()){
+                        type = "Organic";
+                        cScore = probability.get(0).getScore() * 100 ;
+                    }
+                    else{
+                        type = "Recyclable";
+                        cScore = probability.get(1).getScore() * 100 ;
+                    }
+                    tvType.setText(type + "\nCScore : " + cScore);
+                    Log.d("TAGP", probability.toString());
+                    // Releases model resources if no longer used.
+                    model.close();
+                } catch (IOException e) {
+                    // TODO Handle the exception
+                }
+            }
         }
         else{
             Intent intent = new Intent(getApplicationContext() , MainMenu.class);

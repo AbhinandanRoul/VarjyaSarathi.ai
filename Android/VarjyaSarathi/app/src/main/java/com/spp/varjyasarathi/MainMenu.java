@@ -97,6 +97,7 @@ public class MainMenu extends AppCompatActivity {
                     break;
                 case R.id.scan:
                     Intent intent = new Intent(this , ScanGarbage.class);
+                    intent.putExtra("s", "b");
                     startActivity(intent);
                     replaceFragment(new HomeFragment() );
                     break;
