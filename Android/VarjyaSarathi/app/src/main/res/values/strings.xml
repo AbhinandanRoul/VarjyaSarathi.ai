@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">VarjyaSarathi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="language_name">English</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_odia">ଓଡିଆ</string>
+
+    <string name="menu">Menu</string>
+    <string name="report">Report</string>
+    <string name="pothole">Pothole</string>
+    <string name="garbage">Garbage</string>
+    <string name="road_flood">Road Flood</string>
+    <string name="report_">REPORT</string>
+    <string name="report_des">Scan the qr code of the dustbin, take a picture or just tell the color you see.</string>
+    <string name="maps_des">Find the Nearest Dustbin around you</string>
+    <string name="plastic">plastic</string>
+    <string name="glass">glass</string>
+    <string name="metal">metal</string>
+    <string name="paper">paper</string>
+    <string name="organic">organic</string>
+    <string name="electronics">electronics</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="doorstep_pickup">Doorstep Pickup</string>
+    <string name="convert_vsp">Convert VSP</string>
+    <string name="scan">Scan</string>
+    <string name="see_where_you_stand_among_the_others">See where you stand among the others</string>
+</resources>

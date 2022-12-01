@@ -1,0 +1,702 @@
+[
+  {
+    "DustbinID": "B20CA6DDE6",
+    "Lat": 20.24367191,
+    "Long": 85.8134344,
+    "Type": "Organic",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "271258F1C9",
+    "Lat": 20.2815367,
+    "Long": 85.81339362,
+    "Type": "Recycle",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "B254EBFAD1",
+    "Lat": 20.28548263,
+    "Long": 85.82322796,
+    "Type": "Landfill",
+    "R_RODs": 4
+  },
+  {
+    "DustbinID": "E183085147",
+    "Lat": 20.28610968,
+    "Long": 85.80208661,
+    "Type": "Landfill",
+    "R_RODs": 10
+  },
+  {
+    "DustbinID": "D27EA69FA9",
+    "Lat": 20.28247461,
+    "Long": 85.80589316,
+    "Type": "Recycle",
+    "R_RODs": 7
+  },
+  {
+    "DustbinID": "F0D65C7F1C",
+    "Lat": 20.24197857,
+    "Long": 85.80291771,
+    "Type": "Recycle",
+    "R_RODs": 4
+  },
+  {
+    "DustbinID": "39CD3A7606",
+    "Lat": 20.2449731,
+    "Long": 85.82352062,
+    "Type": "Landfill",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": 7670381185,
+    "Lat": 20.2636253,
+    "Long": 85.82920857,
+    "Type": "Landfill",
+    "R_RODs": 4
+  },
+  {
+    "DustbinID": 3089496755,
+    "Lat": 20.2885939,
+    "Long": 85.80927982,
+    "Type": "Landfill",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "D6BF48DBDA",
+    "Lat": 20.24510853,
+    "Long": 85.82147343,
+    "Type": "Recycle",
+    "R_RODs": 10
+  },
+  {
+    "DustbinID": "1957D1DE9A",
+    "Lat": 20.29154507,
+    "Long": 85.81515621,
+    "Type": "Recycle",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": null,
+    "Lat": 20.27482436,
+    "Long": 85.81737733,
+    "Type": "Organic",
+    "R_RODs": 3
+  },
+  {
+    "DustbinID": "70A691EDAF",
+    "Lat": 20.25497457,
+    "Long": 85.82551492,
+    "Type": "Biohazard",
+    "R_RODs": 5
+  },
+  {
+    "DustbinID": "357E52E8A9",
+    "Lat": 20.27562524,
+    "Long": 85.80525327,
+    "Type": "Recycle",
+    "R_RODs": 3
+  },
+  {
+    "DustbinID": "93E2C769D6",
+    "Lat": 20.29158373,
+    "Long": 85.81771176,
+    "Type": "Organic",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "C2FF22466B",
+    "Lat": 20.25444082,
+    "Long": 85.80383381,
+    "Type": "Organic",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "E773C79B37",
+    "Lat": 20.24234107,
+    "Long": 85.82610058,
+    "Type": "Biohazard",
+    "R_RODs": 5
+  },
+  {
+    "DustbinID": "6DE6362C15",
+    "Lat": 20.2922121,
+    "Long": 85.82362613,
+    "Type": "Biohazard",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "0FC7D9D7CC",
+    "Lat": 20.29596755,
+    "Long": 85.83018191,
+    "Type": "Recycle",
+    "R_RODs": 4
+  },
+  {
+    "DustbinID": "B2C28DB91A",
+    "Lat": 20.27062426,
+    "Long": 85.815091,
+    "Type": "Organic",
+    "R_RODs": 2
+  },
+  {
+    "DustbinID": "D90ADCB25B",
+    "Lat": 20.25738924,
+    "Long": 85.82873349,
+    "Type": "Organic",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "740196D4BB",
+    "Lat": 20.29199923,
+    "Long": 85.80986014,
+    "Type": "Recycle",
+    "R_RODs": 5
+  },
+  {
+    "DustbinID": "E59C5AC475",
+    "Lat": 20.27482471,
+    "Long": 85.8048093,
+    "Type": "Recycle",
+    "R_RODs": 9
+  },
+  {
+    "DustbinID": "AEFA3C1662",
+    "Lat": 20.28374422,
+    "Long": 85.81822626,
+    "Type": "Landfill",
+    "R_RODs": 9
+  },
+  {
+    "DustbinID": "426AD6DF28",
+    "Lat": 20.2638657,
+    "Long": 85.8024281,
+    "Type": "Landfill",
+    "R_RODs": 9
+  },
+  {
+    "DustbinID": "2540028D36",
+    "Lat": 20.28450851,
+    "Long": 85.81855282,
+    "Type": "Biohazard",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "8A58B22D1A",
+    "Lat": 20.25063361,
+    "Long": 85.82100927,
+    "Type": "Recycle",
+    "R_RODs": 7
+  },
+  {
+    "DustbinID": "472989E6B0",
+    "Lat": 20.26588448,
+    "Long": 85.81664299,
+    "Type": "Biohazard",
+    "R_RODs": 4
+  },
+  {
+    "DustbinID": "E82F155090",
+    "Lat": 20.24808255,
+    "Long": 85.81620319,
+    "Type": "Recycle",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "650B9225A6",
+    "Lat": 20.26504198,
+    "Long": 85.82846805,
+    "Type": "Recycle",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "C062928DCB",
+    "Lat": 20.25270515,
+    "Long": 85.80568814,
+    "Type": "Recycle",
+    "R_RODs": 2
+  },
+  {
+    "DustbinID": "1E2355BB20",
+    "Lat": 20.28822301,
+    "Long": 85.80336844,
+    "Type": "Biohazard",
+    "R_RODs": 7
+  },
+  {
+    "DustbinID": "14ACC17642",
+    "Lat": 20.2514999,
+    "Long": 85.8217843,
+    "Type": "Biohazard",
+    "R_RODs": 4
+  },
+  {
+    "DustbinID": "A253D5291B",
+    "Lat": 20.27723327,
+    "Long": 85.80690174,
+    "Type": "Landfill",
+    "R_RODs": 2
+  },
+  {
+    "DustbinID": "FE3C7D48BC",
+    "Lat": 20.27698995,
+    "Long": 85.81612412,
+    "Type": "Landfill",
+    "R_RODs": 7
+  },
+  {
+    "DustbinID": "565D01BDA4",
+    "Lat": 20.27035346,
+    "Long": 85.82246973,
+    "Type": "Organic",
+    "R_RODs": 5
+  },
+  {
+    "DustbinID": "F8ACB4C532",
+    "Lat": 20.28135149,
+    "Long": 85.82540391,
+    "Type": "Biohazard",
+    "R_RODs": 5
+  },
+  {
+    "DustbinID": "8FA753DB5E",
+    "Lat": 20.27522058,
+    "Long": 85.82471731,
+    "Type": "Landfill",
+    "R_RODs": 9
+  },
+  {
+    "DustbinID": "3CD2D13AD0",
+    "Lat": 20.29293046,
+    "Long": 85.83041665,
+    "Type": "Biohazard",
+    "R_RODs": 7
+  },
+  {
+    "DustbinID": "C96F1A90AE",
+    "Lat": 20.27235655,
+    "Long": 85.81908394,
+    "Type": "Recycle",
+    "R_RODs": 7
+  },
+  {
+    "DustbinID": "79DDB9617E",
+    "Lat": 20.27801308,
+    "Long": 85.82882259,
+    "Type": "Landfill",
+    "R_RODs": 2
+  },
+  {
+    "DustbinID": "5BE123660B",
+    "Lat": 20.2676867,
+    "Long": 85.80625721,
+    "Type": "Landfill",
+    "R_RODs": 5
+  },
+  {
+    "DustbinID": "8BC3F82D39",
+    "Lat": 20.25171126,
+    "Long": 85.80950872,
+    "Type": "Biohazard",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "48AC4DF8CE",
+    "Lat": 20.26362379,
+    "Long": 85.81682019,
+    "Type": "Landfill",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "69AEF79D8D",
+    "Lat": 20.26970797,
+    "Long": 85.81699184,
+    "Type": "Landfill",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "D788526508",
+    "Lat": 20.29082345,
+    "Long": 85.80864259,
+    "Type": "Recycle",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "60E32351FA",
+    "Lat": 20.27499683,
+    "Long": 85.81159878,
+    "Type": "Organic",
+    "R_RODs": 7
+  },
+  {
+    "DustbinID": "B963AAB4F0",
+    "Lat": 20.24592224,
+    "Long": 85.81641167,
+    "Type": "Recycle",
+    "R_RODs": 2
+  },
+  {
+    "DustbinID": "8B5C84CD15",
+    "Lat": 20.29915202,
+    "Long": 85.81047222,
+    "Type": "Biohazard",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "7A0EDE27ED",
+    "Lat": 20.28092531,
+    "Long": 85.82019719,
+    "Type": "Recycle",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "B25602AAD1",
+    "Lat": 20.2461412,
+    "Long": 85.82558109,
+    "Type": "Recycle",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "D62EE9EC21",
+    "Lat": 20.280425,
+    "Long": 85.80977058,
+    "Type": "Landfill",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "5A3498FF07",
+    "Lat": 20.27494954,
+    "Long": 85.81274722,
+    "Type": "Biohazard",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "1B3F1A0338",
+    "Lat": 20.28809833,
+    "Long": 85.80594508,
+    "Type": "Biohazard",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": null,
+    "Lat": 20.29560118,
+    "Long": 85.80457325,
+    "Type": "Organic",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "A6CE68CEA9",
+    "Lat": 20.25331425,
+    "Long": 85.80985798,
+    "Type": "Biohazard",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "7F2DE6364B",
+    "Lat": 20.2438317,
+    "Long": 85.80138081,
+    "Type": "Organic",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "AD5CC0D11F",
+    "Lat": 20.2822812,
+    "Long": 85.80690242,
+    "Type": "Landfill",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "217BBDE477",
+    "Lat": 20.27541516,
+    "Long": 85.80218541,
+    "Type": "Landfill",
+    "R_RODs": 3
+  },
+  {
+    "DustbinID": "8C9ABF1362",
+    "Lat": 20.28858637,
+    "Long": 85.82114427,
+    "Type": "Biohazard",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "5C9000A823",
+    "Lat": 20.27803067,
+    "Long": 85.81010048,
+    "Type": "Recycle",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "5C55F35A65",
+    "Lat": 20.26199065,
+    "Long": 85.81497347,
+    "Type": "Recycle",
+    "R_RODs": 7
+  },
+  {
+    "DustbinID": "FBCA48DE91",
+    "Lat": 20.2852699,
+    "Long": 85.82284982,
+    "Type": "Recycle",
+    "R_RODs": 2
+  },
+  {
+    "DustbinID": "17701F16A2",
+    "Lat": 20.28996553,
+    "Long": 85.81373095,
+    "Type": "Recycle",
+    "R_RODs": 3
+  },
+  {
+    "DustbinID": "D580F51517",
+    "Lat": 20.25590293,
+    "Long": 85.80360026,
+    "Type": "Landfill",
+    "R_RODs": 2
+  },
+  {
+    "DustbinID": "7D4F82A820",
+    "Lat": 20.26446119,
+    "Long": 85.80316382,
+    "Type": "Landfill",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "5D86FF84D6",
+    "Lat": 20.25126983,
+    "Long": 85.80687571,
+    "Type": "Organic",
+    "R_RODs": 7
+  },
+  {
+    "DustbinID": "A465889F52",
+    "Lat": 20.28840254,
+    "Long": 85.81921403,
+    "Type": "Recycle",
+    "R_RODs": 9
+  },
+  {
+    "DustbinID": "BC7B4344C7",
+    "Lat": 20.27102184,
+    "Long": 85.82249386,
+    "Type": "Biohazard",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "29015E60BA",
+    "Lat": 20.29792494,
+    "Long": 85.81297559,
+    "Type": "Organic",
+    "R_RODs": 4
+  },
+  {
+    "DustbinID": "173CF5FB40",
+    "Lat": 20.28205392,
+    "Long": 85.8125779,
+    "Type": "Organic",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "FB142F6D48",
+    "Lat": 20.26890525,
+    "Long": 85.80756782,
+    "Type": "Biohazard",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "49F0F3FA49",
+    "Lat": 20.25372174,
+    "Long": 85.8037078,
+    "Type": "Organic",
+    "R_RODs": 5
+  },
+  {
+    "DustbinID": "B126C0BDB3",
+    "Lat": 20.28887872,
+    "Long": 85.80943672,
+    "Type": "Biohazard",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "2518D1E35D",
+    "Lat": 20.2568745,
+    "Long": 85.82684434,
+    "Type": "Landfill",
+    "R_RODs": 5
+  },
+  {
+    "DustbinID": "D105AD566B",
+    "Lat": 20.25699104,
+    "Long": 85.8293975,
+    "Type": "Organic",
+    "R_RODs": 9
+  },
+  {
+    "DustbinID": "6A02BC94FD",
+    "Lat": 20.26908803,
+    "Long": 85.81941752,
+    "Type": "Organic",
+    "R_RODs": 10
+  },
+  {
+    "DustbinID": "335AF21BA3",
+    "Lat": 20.28705041,
+    "Long": 85.8092179,
+    "Type": "Organic",
+    "R_RODs": 2
+  },
+  {
+    "DustbinID": "3BB4A7DBFF",
+    "Lat": 20.27864086,
+    "Long": 85.82969919,
+    "Type": "Organic",
+    "R_RODs": 5
+  },
+  {
+    "DustbinID": "512A686C95",
+    "Lat": 20.29596001,
+    "Long": 85.82625804,
+    "Type": "Recycle",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "361139523A",
+    "Lat": 20.25890916,
+    "Long": 85.82598075,
+    "Type": "Landfill",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "557235D030",
+    "Lat": 20.25148972,
+    "Long": 85.80522863,
+    "Type": "Biohazard",
+    "R_RODs": 6
+  },
+  {
+    "DustbinID": "D525348DFA",
+    "Lat": 20.24820563,
+    "Long": 85.82149132,
+    "Type": "Organic",
+    "R_RODs": 3
+  },
+  {
+    "DustbinID": "1D0EA4B422",
+    "Lat": 20.28017874,
+    "Long": 85.80427469,
+    "Type": "Organic",
+    "R_RODs": 10
+  },
+  {
+    "DustbinID": "DC9FBC681C",
+    "Lat": 20.26818189,
+    "Long": 85.80971689,
+    "Type": "Recycle",
+    "R_RODs": 3
+  },
+  {
+    "DustbinID": "68C69D2D2C",
+    "Lat": 20.27762167,
+    "Long": 85.80224911,
+    "Type": "Organic",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "9345C30771",
+    "Lat": 20.24075222,
+    "Long": 85.82449912,
+    "Type": "Biohazard",
+    "R_RODs": 2
+  },
+  {
+    "DustbinID": "0684B72D38",
+    "Lat": 20.24000218,
+    "Long": 85.80165222,
+    "Type": "Recycle",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "CA3FF2E2DA",
+    "Lat": 20.292191,
+    "Long": 85.81774548,
+    "Type": "Organic",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "B37FFD0A64",
+    "Lat": 20.28499348,
+    "Long": 85.80815398,
+    "Type": "Organic",
+    "R_RODs": 3
+  },
+  {
+    "DustbinID": "9C2CA84326",
+    "Lat": 20.27983993,
+    "Long": 85.81531935,
+    "Type": "Biohazard",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "9BA5F3B673",
+    "Lat": 20.29690771,
+    "Long": 85.80910812,
+    "Type": "Biohazard",
+    "R_RODs": 8
+  },
+  {
+    "DustbinID": "74B1552836",
+    "Lat": 20.26663553,
+    "Long": 85.81702393,
+    "Type": "Recycle",
+    "R_RODs": 3
+  },
+  {
+    "DustbinID": "D0072B868B",
+    "Lat": 20.29959631,
+    "Long": 85.82576952,
+    "Type": "Organic",
+    "R_RODs": 5
+  },
+  {
+    "DustbinID": "D2AB32C819",
+    "Lat": 20.26149422,
+    "Long": 85.81711406,
+    "Type": "Organic",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "E9FD0987FF",
+    "Lat": 20.26885654,
+    "Long": 85.82264407,
+    "Type": "Recycle",
+    "R_RODs": 7
+  },
+  {
+    "DustbinID": "66BA8B0BB2",
+    "Lat": 20.26241993,
+    "Long": 85.8240926,
+    "Type": "Recycle",
+    "R_RODs": 2
+  },
+  {
+    "DustbinID": "EFF23E00D6",
+    "Lat": 20.28234304,
+    "Long": 85.81115367,
+    "Type": "Landfill",
+    "R_RODs": 3
+  },
+  {
+    "DustbinID": "CE44407974",
+    "Lat": 20.24553783,
+    "Long": 85.80388622,
+    "Type": "Landfill",
+    "R_RODs": 1
+  },
+  {
+    "DustbinID": "954FD14CC9",
+    "Lat": 20.28341658,
+    "Long": 85.81804444,
+    "Type": "BioHazard",
+    "R_RODs": 10
+  }
+]

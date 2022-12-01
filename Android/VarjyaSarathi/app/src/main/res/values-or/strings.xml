@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VarjyaSarathi</string>
+
+    <string name="language_name">ଓଡିଆ</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_odia">ଓଡିଆ</string>
+
+    <string name="menu">ମେନୁ</string>
+    <string name="report">ରିପୋର୍ଟ</string>
+    <string name="pothole">ଗର୍ତ୍ତ</string>
+    <string name="garbage">ଅଳିଆ</string>
+    <string name="road_flood">ରାସ୍ତା ବନ୍ୟା</string>
+    <string name="report_">ରିପୋର୍ଟ</string>
+    <string name="report_des">ଡଷ୍ଟବିନର qr କୋଡ୍ ସ୍କାନ୍ କରନ୍ତୁ, ଏକ ଚିତ୍ର ନିଅନ୍ତୁ କିମ୍ବା ଆପଣ ଦେଖୁଥିବା ରଙ୍ଗକୁ କୁହନ୍ତୁ |</string>
+    <string name="maps_des">ଆପଣଙ୍କ ଚାରିପାଖରେ ନିକଟତମ ଡଷ୍ଟବିନ୍ ଖୋଜ |</string>
+    <string name="plastic">ପ୍ଲାଷ୍ଟିକ୍</string>
+    <string name="glass">ଗ୍ଲାସ୍</string>
+    <string name="metal">ଧାତୁ</string>
+    <string name="paper">କାଗଜ</string>
+    <string name="organic">ଜବିକ</string>
+    <string name="electronics">electronics</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="doorstep_pickup">Doorstep Pickup</string>
+    <string name="convert_vsp">Convert VSP</string>
+    <string name="scan">Scan</string>
+    <string name="see_where_you_stand_among_the_others">See where you stand among the others</string>
+
+</resources>
