@@ -47,6 +47,9 @@ public class HomeFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
+    String lat= "";
+    String lon= "";
+
     public HomeFragment() {
         // Required empty public constructor
     }
@@ -143,6 +146,9 @@ public class HomeFragment extends Fragment {
                             @Override
                             public void onComplete(@NonNull Task<QuerySnapshot> task) {
                                 if (task.isSuccessful()) {
+                                    String mlat = "";
+                                    String mlon = "";
+                                    double dist = 1000;
                                     for (QueryDocumentSnapshot document : task.getResult()) {
                                         Dustbins dustbins = document.toObject(Dustbins.class);
                                         Log.d("TAG", document.getId() + " => " + document.getData());
@@ -194,6 +200,15 @@ public class HomeFragment extends Fragment {
             }
         });
 
+        ConstraintLayout clCctv = (ConstraintLayout) getView().findViewById(R.id.home_c2_cctv);
+        clCctv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Cctv.class);
+                startActivity(intent);
+            }
+        });
+
         LinearLayout llMarket = (LinearLayout) getView().findViewById(R.id.ll_market);
         llMarket.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -213,7 +228,7 @@ public class HomeFragment extends Fragment {
         });
     }
 
-    double coordinateDistance( double lat1, double lng1, double lat2, double lng2) {
+    public double coordinateDistance( double lat1, double lng1, double lat2, double lng2) {
         double p = 0.017453292519943295;
         double a = 0.5 - Math.cos((lat2 - lat1) * p)/2 * Math.cos(lat1*p) * Math.cos(lat2 * p) * (1 - Math.cos((lng2-lng1)*p))/2;
         return 12742 * Math.asin(Math.sqrt(a));

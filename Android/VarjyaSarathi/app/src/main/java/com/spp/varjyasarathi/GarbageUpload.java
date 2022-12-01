@@ -28,6 +28,7 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.auth.UserRecoverableAuthException;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -41,7 +42,11 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.auth.User;
+import com.google.firebase.ktx.Firebase;
+import com.google.firestore.v1.WriteResult;
 import com.spp.varjyasarathi.ml.Wastermodel;
 
 import org.tensorflow.lite.DataType;
@@ -142,6 +147,24 @@ public class GarbageUpload extends AppCompatActivity {
                         String id = documentReference.getId();
                         documentReference.update("id",id);
                         Log.d("TAG", "DocumentSnapshot written with ID: " + id);
+                        DocumentReference rf = db.collection("users").document(userId);
+                        rf.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    DocumentSnapshot document = task.getResult();
+                                    if (document.exists()) {
+                                        Log.d("TAG", "DocumentSnapshot data: " + document.getData());
+                                        Users users = document.toObject(Users.class);
+                                        rf.update("vsp" , users.vsp+10);
+                                    } else {
+                                        Log.d("TAG", "No such document");
+                                    }
+                                } else {
+                                    Log.d("TAG", "get failed with ", task.getException());
+                                }
+                            }
+                        });
                         db.collection("Dustbins").document(binId).update("R_RODs",0).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {
@@ -175,6 +198,24 @@ public class GarbageUpload extends AppCompatActivity {
                 .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                     @Override
                     public void onSuccess(DocumentReference documentReference) {
+                        DocumentReference rf = db.collection("users").document(userId);
+                        rf.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    DocumentSnapshot document = task.getResult();
+                                    if (document.exists()) {
+                                        Log.d("TAG", "DocumentSnapshot data: " + document.getData());
+                                        Users users = document.toObject(Users.class);
+                                        rf.update("vsp" , users.vsp+10);
+                                    } else {
+                                        Log.d("TAG", "No such document");
+                                    }
+                                } else {
+                                    Log.d("TAG", "get failed with ", task.getException());
+                                }
+                            }
+                        });
                         String id = documentReference.getId();
                         documentReference.update("id",id);
                         Log.d("TAG", "DocumentSnapshot written with ID: " + id);

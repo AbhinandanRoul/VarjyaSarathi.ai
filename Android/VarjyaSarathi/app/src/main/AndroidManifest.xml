@@ -19,6 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VarjyaSarathi">
         <activity
+            android:name=".Cctv"
+            android:exported="false" />
+        <activity
             android:name=".ScanPreview"
             android:exported="false" />
         <activity
