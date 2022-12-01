@@ -8,7 +8,7 @@
 - Introduction of R-ROD™ into dustbins for tracking the waste levels in dustbins at all places, which is cost effective to introduce in all dustbins.
 
 ## Getting Started
-- Please install the android app, by the given link : https://drive.google.com/file/d/17E7mM9nsmPZMpSkL5acaLUKU29O19VOQ/view?usp=sharing
+- Please install the android app, by the given link : https://drive.google.com/file/d/1Wv2ST9WfZ0KX_tF9nxHalQwCg9SfI2j6/view?usp=sharing
 Note, for the Android app to get installed in your phone, please enable Permissions --  " __Allow playstore to install apps from unknown sources__ ". It is required as the app is not hosted in Google Playstore.
 - Alternative access to Industrial Bidding Portal- https://abhinandanroul-varjyasarathi-ai-main-xasecw.streamlit.app/
 
